@@ -11,9 +11,9 @@ Analyzing its Influence on Spotify & YouTube Trends
 ##### Step 2: Selecting Relevant Data - Chose only the necessary columns for our analysis and renamed columns for clarity and easy reference.
 ##### Step 3: Handling Missing Data - Counted the number of rows before cleaning and removed rows containing NaN (missing values), and then recounted to ensure data integrity.
 ##### Step 4: Data Type Verification & Conversion - Checked data types to confirm compatibility for analysis. Converted numerical columns (Spotify streams & TikTok views) to numeric format.
-## Analysis of Data
+## Analysis of All Data
 ##### Typically when making a marketing budget or campaign, the goal is to aim for the top spots in the charts for the most visibility and return on investment. This means it is important to understand the overall market for a particular platform, but more importantly understand top chart trends for the platform before investing. When we initially looked at the data, we were under the assumption that TikTok would be leading the trends in what songs became popular, but as we reviewed the data, we saw that other platforms were more predictive. Starting with Spotify data, we see here that using TikTok Likes VS All Time Rank, TikTok’s correlation was opposite to predictive, whereas flipping the control to Spotify All Time Rank shows a stronger and more evenly distributed trend. 
-![image 1](https://github.com/user-attachments/assets/f88a0a2c-aa5a-4446-83e4-6019680d8f6b)
+![image 8](https://github.com/user-attachments/assets/26a90ff2-520e-4c9b-9096-e37095890459)
 ## Weak Correlation Between TikTok and Streaming Success
 ##### The scatterplots analyzing the relationship between TikTok engagement (likes and views) and streaming performance (on Spotify and YouTube) show an extremely weak correlation across all comparisons. Each linear regression line has a near-zero rate of change, indicating that TikTok engagement has little to no direct impact on streaming success.
 ![image 3](https://github.com/user-attachments/assets/67da8da0-a606-4f25-975d-c3c38d8f1ac7)
@@ -21,7 +21,9 @@ Analyzing its Influence on Spotify & YouTube Trends
 ##### Across all scatterplots, there is a clear concentration of data points near the origin (0,0), where both TikTok engagement and streaming metrics are relatively low. This suggests that many songs with low TikTok views also have low Spotify streams. However, some data points are scattered along the Spotify stream axis, demonstrating that certain songs can achieve high streaming numbers despite low TikTok engagement.
 ![image 4](https://github.com/user-attachments/assets/0583d735-9466-4139-93e9-8f4a961b6516)
 ## Switching the Control: Spotify as the Baseline
-##### With Spotify as the control, the relationship between streams and TikTok views presents a different picture compared to using TikTok as the baseline. The scatterplots show a slight upward trend, indicating that as Spotify streams increase, TikTok views also tend to rise. However, the r² value remains below 0.1, suggesting a weak correlation. This means that a song’s success on Spotify does not strongly predict its virality on TikTok.
+##### With Spotify as the control, the relationship between streams and TikTok views presents a different picture compared to using TikTok as the baseline. The scatterplots show a slight upward trend, indicating that as Spotify streams increase, TikTok views also tend to rise. However, the r² value remains bel![image 8](https://github.com/user-attachments/assets/dd1157e6-3a20-4c0b-a752-84c498b74ff6)
+ow 0.1, suggesting a weak correlation. This means that a song’s success on Spotify does not strongly predict its virality on TikTok.![image 8](https://github.com/user-attachments/assets/ff4b0026-75e6-4ba2-af91-c56edfa675ec)
+
 #### Differences in Data Spread
 ##### A key difference emerges in the distribution of data. When TikTok was the control, data points were more concentrated, showing that TikTok hits experienced varying levels of success on Spotify. Now, with Spotify as the control, TikTok views display a much wider spread. While some songs perform well on both platforms, the relationship is inconsistent, highlighting that streaming success does not guarantee TikTok virality.
 #### Challenging Assumptions
@@ -49,5 +51,3 @@ Analyzing its Influence on Spotify & YouTube Trends
 ##### TikTok success (Likes, Views, and Posts) does not strongly correlate with long-term streaming success, meaning viral moments don’t always convert into sustained listens.
 #### Playlisting Matters 
 ##### Songs with strong playlist placements (Reach & Count) tend to perform well on streaming platforms, highlighting the importance of playlist curation for long-term success.
-#### Platform Synergy in Big Hits
-##### Top-10 and Top-25 songs show stronger cross-platform correlations, while lower-ranked songs (Top-500) exhibit more diverse success patterns.
