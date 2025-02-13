@@ -1,222 +1,53 @@
 ---
-title: "7: Project 1 Overview"
+From TikTok to Top Charts
 ---
-<img style="display: none;" src="https://static.bc-edx.com/data/dl-1-2/m7/lms/img/banner.jpg" alt="lesson banner" />
-
-For Project 1, you will work with your group to find and analyze a dataset of your choice.
-
-For this project, you can focus your efforts within a specific industry, as detailed in the following examples.
-
-### Finance
-
-Exploratory data analysis is used by many individuals within the finance industry, including investment banking professionals, private equity analysts, lending analysts, financial administrators, and real estate professionals.
-
-Exploratory data analysis is used for the following tasks in the financial sector:
-
-* Identifying deals
-
-* Analyzing private equity markets
-
-* Researching arbitrage opportunities
-
-* Evaluating liquidity
-
-* Keeping up to date with finance and refinance trends
-
-#### Project Examples
-
-* Equity Trading: While working for a large equity-trading company, you’re tasked with researching a client’s portfolio. Your client wants to invest in telecom stocks and needs expert analysis to make the right decision. Using the [Nasdaq Data API](https://data.nasdaq.com/tools/api), pull a year’s worth of trading data for the major cell phone providers: AT&T, T-Mobile, and Verizon. Which stocks are trending upward? Which are trending downward? Based on the data, what would you recommend to your client?
-
-* New-Car Loan Analysis: People have been financing higher car values over longer amounts of time. Explore what is driving this trend. Search for answers by using data collected from the [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/series/DTCTLVENANQ). What other questions can you answer with the data? What do your results suggest about the time value of money? What about the impact of these loans as time goes on?
-
-### Healthcare
-
-Exploratory data analysis is used by many individuals within the healthcare field, including clinical data analysts, pharmaceutical testers, healthcare-economics researchers, senior policy analysts, compliance operations analysts, and public health informatics scientists.
-
-Exploratory data analysis is important for understanding the following healthcare considerations:
-
-* Predicting and diagnosing illnesses
-
-* Improving patient safety
-
-* Reducing time to diagnosis
-
-* Increasing our understanding of disease risks and causes
-
-* Developing stronger prevention strategies
-
-#### Project Examples
-
-* Mental Health in Tech: People working in tech are often at their desks for extended amounts
-of time. Explore how this trend correlates with mental health. Examine the [data collected through surveys](https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey) and search for trends. Find out if there is a link between mental health and companies that offer wellness programs. What do the results show you about the state of mental health in tech? Can you suggest steps that companies can take to help their employees?
-
-* Personal Fitness Analyst: Research whether working out helps a person become more active overall. Use data collected by the [Samsung Health application](https://www.kaggle.com/datasets/aroojanwarkhan/fitness-data-trends) to uncover  relevant trends. What do the results tell you about individuals using this app? Have their lifestyles become more active? Less? Remained the same?
-
-### Custom
-
-We’ve only specified healthcare and finance, but any industry can benefit from exploratory data analysis.
-
-The following professionals also use data and can benefit from exploratory data analysis:
-
-* Natural and environmental scientists
-
-* Marketing professionals
-
-* Information security analysts
-
-* Business intelligence analysts
-
-#### Project Examples
-
-* Private Investigator: Use [aggregate crime data](https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i) from different police precincts in a city to uncover criminal activity patterns. Consider that [most crime in New York City takes place in the summer](https://www.nydailynews.com/new-york/nyc-crime/daily-news-analysis-reveals-crime-rankings-city-subway-system-article-1.1836918). Find out if you are able to uncover similar patterns in your city. What do your results suggest about how police should plan their patrols? What do your results suggest about how law enforcement resources should be distributed over the calendar year?
-
-* Uber Rides and Weather: No one likes to walk in subzero temperatures or scorching heat. Do people use Uber more when the weather is uncomfortable? Using [Uber ride data from Kaggle](https://www.kaggle.com/datasets/fivethirtyeight/uber-pickups-in-new-york-city) and data from a weather API, find out if people take Uber more during summer and winter months, and if there are relationships between daily temperature and ride frequency. What do the results tell you about surge-pricing strategies and commuter habits?
-
-### Working with Your Group
-
-When working on an online group project, it’s crucial to meet with your group and communicate regularly. Plan for significant collaboration time outside of class. The following tips can help you make the most of your time:
-
-* Decide how you’re going to communicate with your group members when you begin. Create a Slack channel, exchange phone numbers, and ensure that the group knows each group member’s available working hours.
-
-* Set up an agile project by using [GitHub Projects](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/managing-project-boards) so that your group can track tasks.
-
-* Create internal milestones to ensure that your group is on track. Set due dates for these milestones so that you have a timeline for completing the project. Some of these milestones might include:
-
-  * Project ideation
-
-  * Data fetching/API integration
-
-  * Data analysis
-
-  * Testing
-
-  * Creating documentation
-
-  * Creating the presentation
-
-Since this is a two-week project, make sure that you have done at least half of your project by the end of the first week in order to stay on track.
-
-Although you will divide the work among the group members, it’s essential to collaborate and communicate while working on different parts of the project. Be sure to check in with your teammates regularly and offer support.
-
-### Support and Resources
-
-Your instructional team will provide support during classes and office hours. You will also have access to learning assistants and tutors to help you with topics as needed. Make sure to take advantage of these resources as you collaborate with your group on this first project.
-
-### Requirements
-
-#### Completed Analysis Uploaded to GitHub (20 points)
-
-* Final data analysis contains ample and complete information in README file (10 points)
-* Final repository is acceptable for professional quality presentation (10 points)
-
-#### Visualizations (20 points)
-
-* 6–8 visualizations of data (at least two per question) (10 points)
-* Clear and accurate labeling of images (5 points)
-* Visualizations supported with ample and precise explanation (5 points)
-
-#### Analysis and Conclusion (20 points)
-
-* Write-up summarizes major findings and implications at a professional level (5 points)
-* Each question in the project proposal is answered with precise descriptions and findings (5 points)
-* Findings are strongly supported with numbers and visualizations  (5 points)
-* Each question response is supported with a well-discerned statistical analysis from lessons (e.g., aggregation, correlation, comparison, summary statistics, sentiment analysis, and time series analysis) (5 points)
-
-#### Group Presentation (20 points)
-
-* All group members spoke during the presentation (5 points)
-* Group was well prepared (5 points)
-* Presentation is relevant to material (5 points)
-* Presentation maintains audience interest (5 points)
-
-#### Slide Deck (20 points)
-
-* Slides are visually clean and professional (5 points)
-* Slides are relevant to material (5 points)
-* Slides effectively demonstrate the project (5 points)
-* Slides are clear and maintain audience interest (5 points)
-
-This project will be evaluated against the requirements and assigned a grade according to the following table:
-
-| Grade | Points |
-| --- | --- |
-| A (+/-) | 90+ |
-| B (+/-) | 80&ndash;89 |
-| C (+/-) | 70&ndash;79 |
-| D (+/-) | 60&ndash;69 |
-| F (+/-) | < 60 |
-
-### Project Guidelines
-
-The following project guidelines focus on teamwork, your project proposal, data sources, and data cleanup and analysis.
-
-### Collaborating with Your Team
-
-Remember that these projects are a group effort. The experience of close collaboration will create better project outcomes and help you in your future careers. Specifically, you’ll learn collaborative workflows that will enable you to approach and solve complex problems. Working in groups allows you to work smart and dream big. Take advantage!
-
-### Project Proposal
-
-Before you start writing any code, your group should outline the scope and purpose of your project. This will help provide direction and safeguard against **scope creep** (the tendency for projects to become more complex after work begins).
-
-The proposal is essentially a brief summary of your interests and intent. Be sure to include the following details:
-
-* The kind of data you’d like to work with and the field you’re interested in (finance, healthcare surveys, etc.)
-
-* The questions you’ll ask of the data
-
-* Possible source for the data
-
-Use the following example for guidance:
-
-The aim of our project is to uncover patterns in credit card fraud. We’ll examine
-relationships between transaction types and location, purchase prices and times of day,
-purchase trends over the course of a year, and other related relationships derived from the
-data.
-
-### Finding Data
-
-Once your group has written a proposal, it’s time to start searching for data. We recommend the following curated sources of high-quality data:
-
-* [data.world](https://www.data.world)
-
-* [Kaggle](https://www.kaggle.com)
-
-* [Data.gov](https://www.data.gov)
-
-* [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
-
-* [Public-APIs](https://github.com/n0shake/Public-APIs)
-
-* [Awesome API](https://github.com/Kikobeats/awesome-api)
-
-* [Medium API List](https://benjamin-libor.medium.com/a-curated-collection-of-over-150-apis-to-build-great-products-fdcfa0f361bc)
-
-> **Important** Whenever you use a dataset or create a new dataset based on other sources (such as existing datasets or information scraped from websites), make sure to use the following guidelines:
->
-> 1. Check for copyright protections, and make sure that the way you plan to use this dataset is within the bounds of fair use.
->
-> 2. Document how you intend to use this dataset now and in the future. Find any licenses or terms of use associated with the dataset, and review them to confirm that your intended use is in compliance.
->
-> 3. Investigate how the dataset was collected. Identify any indicators that the data was obtained from a source that the compilers were not authorized to access.
-
-You’ll likely have to adjust your project plan as you explore the available data. That’s okay! This is all part of the process. Just make sure that everyone in the group is aligned on the project’s goals as you make changes.
-
-Make sure that your datasets are not too large for your personal computer. Big datasets are difficult to manage locally, so consider using data subsets or different datasets altogether.
-
-### Data Cleanup and Analysis
-
-Now that you’ve picked your data, it’s time to tackle development and analysis. This is where the fun starts!
-
-The analysis process can be broken into two broad phases: (1) exploration and cleanup, and (2) analysis.
-
-As you’ve learned, you’ll need to explore, clean, and reformat your data before you can begin answering your research questions. We recommend keeping track of these exploration and cleanup steps in a dedicated Jupyter notebook to keep you organized and make it easier to present your work later.
-
-After you’ve cleaned your data and are ready to start crunching numbers, you should track your work in a Jupyter notebook dedicated specifically to analysis. We recommend focusing your analysis on multiple techniques, such as aggregation, correlation, comparison, summary statistics, sentiment analysis, and time-series analysis. Don’t forget to include plots during both the exploration and analysis phases. Creating plots along the way can reveal insights and interesting trends in the data that you might not notice if you wait until you’re preparing for your presentation. Presentation requirements will be further explained in the next module.
-
-### Presentation Day
-
-It’s crucial that you find time to rehearse before presentation day.
-
-On the day of your presentation, each member of your group is required to submit the URL of your GitHub repository for grading.
-
-> **Note:** Projects are requirements for graduation. While you are allowed to miss up to two Challenge assignments and still earn your certificate, projects cannot be skipped.
+Analyzing its Influence on Spotify & YouTube Trends
+
+## Introduction
+##### TikTok has become a major force in shaping modern culture. Songs that gain traction on the platform can experience explosive popularity. TikTok’s algorithm-driven nature allows snippets of songs to spread rapidly. This cycle has made TikTok a key player in music discovery, with many artists using the platform to reach wider audiences. 
+##### Given its impact, we wanted to explore whether TikTok’s influence translates into true streaming success. Does a song’s popularity on TikTok lead to proportional growth on Spotify or Youtube, or do viral moments fade without long-term impact? To answer this question, we analyzed data across these platforms, comparing TikTok engagement with streaming performance to determine whether going viral truly drives success.
+## Data Overview (Merge and Clean)
+##### Step 1: File Preparation - Converted the original Excel file to a CSV format for easier processing.
+##### Step 2: Selecting Relevant Data - Chose only the necessary columns for our analysis and renamed columns for clarity and easy reference.
+##### Step 3: Handling Missing Data - Counted the number of rows before cleaning and removed rows containing NaN (missing values), and then recounted to ensure data integrity.
+##### Step 4: Data Type Verification & Conversion - Checked data types to confirm compatibility for analysis. Converted numerical columns (Spotify streams & TikTok views) to numeric format.
+## Analysis of Data
+##### Typically when making a marketing budget or campaign, the goal is to aim for the top spots in the charts for the most visibility and return on investment. This means it is important to understand the overall market for a particular platform, but more importantly understand top chart trends for the platform before investing. When we initially looked at the data, we were under the assumption that TikTok would be leading the trends in what songs became popular, but as we reviewed the data, we saw that other platforms were more predictive. Starting with Spotify data, we see here that using TikTok Likes VS All Time Rank, TikTok’s correlation was opposite to predictive, whereas flipping the control to Spotify All Time Rank shows a stronger and more evenly distributed trend. 
+![image 1](https://github.com/user-attachments/assets/f88a0a2c-aa5a-4446-83e4-6019680d8f6b)
+## Weak Correlation Between TikTok and Streaming Success
+##### The scatterplots analyzing the relationship between TikTok engagement (likes and views) and streaming performance (on Spotify and YouTube) show an extremely weak correlation across all comparisons. Each linear regression line has a near-zero rate of change, indicating that TikTok engagement has little to no direct impact on streaming success.
+![image 3](https://github.com/user-attachments/assets/67da8da0-a606-4f25-975d-c3c38d8f1ac7)
+## Data Distribution and Trends
+##### Across all scatterplots, there is a clear concentration of data points near the origin (0,0), where both TikTok engagement and streaming metrics are relatively low. This suggests that many songs with low TikTok views also have low Spotify streams. However, some data points are scattered along the Spotify stream axis, demonstrating that certain songs can achieve high streaming numbers despite low TikTok engagement.
+![image 4](https://github.com/user-attachments/assets/0583d735-9466-4139-93e9-8f4a961b6516)
+## Switching the Control: Spotify as the Baseline
+##### With Spotify as the control, the relationship between streams and TikTok views presents a different picture compared to using TikTok as the baseline. The scatterplots show a slight upward trend, indicating that as Spotify streams increase, TikTok views also tend to rise. However, the r² value remains below 0.1, suggesting a weak correlation. This means that a song’s success on Spotify does not strongly predict its virality on TikTok.
+#### Differences in Data Spread
+##### A key difference emerges in the distribution of data. When TikTok was the control, data points were more concentrated, showing that TikTok hits experienced varying levels of success on Spotify. Now, with Spotify as the control, TikTok views display a much wider spread. While some songs perform well on both platforms, the relationship is inconsistent, highlighting that streaming success does not guarantee TikTok virality.
+#### Challenging Assumptions
+##### Overall, this new scatterplot challenges the assumption that TikTok is the primary driver of Spotify success. A song can thrive on Spotify without needing to go viral on TikTok, suggesting that long-term streaming performance may be influenced by other factors beyond TikTok trends.
+![image 5](https://github.com/user-attachments/assets/009d597d-cc5a-4121-84d3-6ff08fa2446a)
+## Comparing Top 10 Rankings
+##### The percentage bar graphs reveal a consistent trend: a song’s popularity on TikTok does not always translate to proportional success on Spotify. For instance, a song ranked #8 on TikTok reaching #1 on Spotify suggests that virality on TikTok does not guarantee streaming dominance. This highlights how some songs thrive within TikTok trends but may not have lasting appeal for full-length listening, while others achieve streaming success without widespread TikTok engagement.
+![image 6](https://github.com/user-attachments/assets/6fa54bad-d49b-40d2-88cc-26bc3405db1b)
+### TikTok’s Unpredictable Virality
+##### In contrast, TikTok engagement is far more unpredictable, with certain songs experiencing sharp spikes in views. This suggests that TikTok favors bursts of virality driven by trends, rather than the gradual, consistent success seen on Spotify.
+## Analysis of heatmaps
+#### Correlation Between Platforms
+##### Strong correlations exist between *YouTube Views*, *Spotify Streams*, and *Playlist Reach*, suggesting songs that perform well on one platform tend to perform well on others.
+##### TikTok Likes have *weak* or *negative correlations* with streaming and playlist metrics, **suggesting TikTok popularity doesn’t always translate into high Spotify or YouTube engagement**.
+#### Platform-Specific Trends
+##### In smaller datasets (Top-10, Top-25), *YouTube* and *Spotify* metrics show very high correlations, but as the dataset expands (Top-500), these correlations weaken, implying that mainstream hits are more universally popular across platforms, while lesser-known songs have more variable engagement.
+##### TikTok Posts and Views are highly correlated, but their relationship with streaming metrics weakens as the dataset size increases.
+#### Playlist Influence on Streams
+##### Spotify Playlist Count and Playlist Reach are consistently correlated with Spotify Streams, suggesting that placement in multiple playlists strongly impacts streaming numbers.
+![image 7](https://github.com/user-attachments/assets/1df9b436-480c-433f-8868-550cc51b010c)
+## Final takeaways
+#### TikTok Influence
+##### While TikTok Views and Posts show a strong internal correlation, their impact on Spotify Streams is inconsistent across dataset sizes. In smaller datasets, TikTok engagement might appear more influential on streaming performance, but in larger datasets, the effect diminishes.
+#### Virality vs. Longevity
+##### TikTok success (Likes, Views, and Posts) does not strongly correlate with long-term streaming success, meaning viral moments don’t always convert into sustained listens.
+#### Playlisting Matters 
+##### Songs with strong playlist placements (Reach & Count) tend to perform well on streaming platforms, highlighting the importance of playlist curation for long-term success.
+#### Platform Synergy in Big Hits
+##### Top-10 and Top-25 songs show stronger cross-platform correlations, while lower-ranked songs (Top-500) exhibit more diverse success patterns.
